@@ -1,0 +1,4 @@
+(library
+ (name        ssd_irmin_mem)
+ (public_name ssd_irmin-mem)
+ (libraries   irmin))
