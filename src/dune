@@ -1,4 +1,4 @@
 (library
  (name        irmin_memssd)
- (public_name irmin-memssd)
+ (public_name irmin_memssd)
  (libraries   irmin))

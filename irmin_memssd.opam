@@ -8,7 +8,6 @@ dev-repo:     "git+https://github.com/ssdubey/ssd_irmin.git"
 doc:          "https://mirage.github.io/irmin/"
 
 build: [
- ["dune" "subst"] {pinned}
  ["dune" "build" "-p" name "-j" jobs]
  ["dune" "runtest" "-p" name] {with-test}
 ]
